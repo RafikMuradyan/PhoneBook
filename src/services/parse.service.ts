@@ -55,7 +55,7 @@ export class ParseService {
             order: data.order,
             orderBy: data.orderBy
         }
-        const orderedData = sortingService.sortRecords(sortingData)
+        const orderedData = sortingService.sortContactsData(sortingData)
 
         return {
             contacts: orderedData,
